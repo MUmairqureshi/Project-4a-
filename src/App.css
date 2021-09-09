@@ -1,0 +1,66 @@
+body {
+  overflow-x: hidden;
+}
+
+img {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.sky, .earth {
+  position: absolute;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+}
+
+.earth {
+     background: #eb125d url( "https://ak.picdn.net/shutterstock/videos/23424070/thumb/1.jpg") repeat-x 0 0 /  100% auto;   
+  bottom: 0;
+  background-size: cover;
+  width: 100%;
+}
+
+
+#bicycle img{
+  position: absolute;
+  
+  top: 0; left: 50%;
+
+ max-width: 450px; 
+ height: 300px ;
+}
+
+#cloud{
+  position: absolute;
+  top: 10px;
+  left: 50%;
+}
+#sky{
+  background-color:skyblue ;
+  background-size: cover;
+  min-height: 330px;
+  width: 1294px;
+
+}
+#cloud{
+  top: 20px;
+  height: 50px;
+  width: 20%;
+  right:  100%;
+}
+#cloud2{
+  top: -250px;
+  height: 50px;
+  width: 20%;
+  left: 400px;
+}
+#cloud3{
+  top: -230px;
+  height: 50px;
+  width: 20%;
+  left: 1100px;
+}
